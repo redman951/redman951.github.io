@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Didot Italic';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Didot Italic'), local('Didot-Italic'),
+        url('../Fonts/Didot-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway Regular'), local('Raleway-Regular'),
+        url('../Fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway Bold'), local('Raleway-Bold'),
+        url('../Fonts/raleway-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway ExtraBold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
+        url('../Fonts/Raleway-Extrabold.ttf') format('truetype');
+}

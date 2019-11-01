@@ -1,0 +1,77 @@
+.Contact_Background {
+  background: #e0dccd;
+}
+
+.Page_Block__Contact {
+  display: block;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.Contact__Heading {
+
+}
+
+.Contact__Container {
+  display: flex;
+}
+
+.Contact__Contact_Form {
+  display: inline-block;
+  margin-right: 50px;
+  margin-right: 0px;
+}
+
+.Contact_Form__Message {
+
+}
+.Contact_Form__Name_Input {
+}
+
+.Contact_Form__Label {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  font-size: 12px;
+  font-style: normal;
+  font-family: "Raleway Bold";
+}
+
+.Contact_Form__Name_Input {
+  width: 300px;
+  height: 35px;
+  margin-top: 4px;
+}
+
+.Contact_Form__Message {
+    width: 460px;
+    height: 190px;
+}
+
+.Contact__Form__Button {
+  margin-top: 0px;
+  margin-bottom: 64px;
+  width: 200px;
+  height: 45px;
+  font-family: "Raleway Bold";
+}
+
+.Contact__Map {
+  width: 480px;
+  height: 240px;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ff9966;
+}
+
+.Map__Image {
+  width: 100%;
+  height: 100%;
+  asbackground: url("../Src/Map.png") no-repeat;
+}
+
+.Map_Link {
+  color:blue;
+  text-decoration: underline;
+}

@@ -1,0 +1,88 @@
+body {
+  font-family: 'Raleway ExtraBold', arial;
+  color: black;
+  font-size: 16px;
+  min-width: 1152px;
+  margin: 0;
+}
+
+.Page {
+  font-family: "Myriad Pro";
+  font-style: italic;
+}
+
+.Background_Block {
+  width: 100%;
+  background: #e0dccd;
+}
+
+.Page_Block {
+  margin: 0 auto 0 auto;
+  position: relative;
+  width: 1006px;
+  background: #e0dccd;
+}
+
+.Transparent_Background {
+  background: rgba(0,0,0,0);
+}
+
+.Text_Justify {
+  text-align: justify;
+}
+
+.Thin_Border {
+  border: 1px solid #ff9966;
+}
+
+.No_Transition {
+  transition: none !important;
+}
+
+.Page_Block__Content{
+  display: block;
+  font-family: "Myriad Pro";
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  z-index: 10;
+}
+
+.Heading {
+  position: relative;
+  align-items: center;
+  height: 100px;
+  width: 1006px;
+  margin: 0px auto 40px auto;
+  text-align: center;
+  background: black;
+  padding: 10px 0px 8px 0px;
+}
+
+.Heading__Title {
+  font-family: 'Didot Italic';
+  font-size: 36px;
+  font-weight: 400;
+  color: rgb(255,255,255);
+}
+
+.Hidden_Item {
+  display: none;
+}
+
+.Heading__Title:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 60px;
+  height: 3px;
+  top: 38px;
+  margin: auto;
+  background-color: #ff9966;
+  color: #ffffff;
+}
+
+.Heading__Separator {
+  margin: 33px 0 0;
+  border-color: #ff9966;
+  position: relative;
+}

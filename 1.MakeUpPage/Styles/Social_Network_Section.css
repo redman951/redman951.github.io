@@ -1,0 +1,48 @@
+.Social_Network_Section__Background_Extention{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  top: -50px;
+  background: #ffffff;
+}
+
+.Footer__Social_Network_Section{
+  vertical-align: middle;
+  align-items: center;
+  position: relative;
+  padding-left: 64px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+  font-size: 32px;
+  color: black;
+  background: white;
+  font-family: 'Didot Italic';
+}
+
+.Social_Network_Section__Become_Member_Message{
+  font-size: 32px;
+}
+
+.Social_Network_Section__Get_Information_Message{
+  font-size: 18px;
+}
+
+.Social_Network_Section__Separator {
+  display: inline;
+  border-style: solid;
+  border-color: #FF9966;
+  border-width: 0px 0px 0px 0px;
+}
+
+.Footer__Social_Network_Section::before {
+  content: "";
+  position: absolute;
+  width: 1035px;
+  height: 320px;
+  background-color: white;
+  top: -40px;
+  left: 0;
+  z-index: -1;
+}

@@ -1,0 +1,73 @@
+.Page_Block__Menu {
+  position: relative;
+  display: block;
+}
+
+.Menu__Menu_Items {
+  position: relative;
+  width: 100%;
+}
+
+.Menu_Items__Menu_Items_Row {
+  width: 100%;
+  height: auto;
+}
+
+
+.Menu_Items_Row__Menu_Item_Container {
+  display: inline-flex;
+  position: relative;
+  padding: 7px;
+  border: 1px solid #FF9966;
+  width: 445px;
+  height: 280px;
+  left: 0;
+  margin: 0 0 40px;
+}
+
+.Menu_Items_Row__Menu_Item_Container:nth-child(2n) {
+  position: absolute;
+  left: inherit;
+  right: 0px;
+}
+
+.Menu_Item_Container__Menu_Item {
+  width: 100%;
+  display: flex;
+  position: relative;
+  background: #ffffff;
+}
+
+.Menu_Item__Item_Description {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 16px;
+}
+
+.Item_Descripion__Title {
+  display: block;
+  font-size: 24px;
+  font-family: 'Didot Italic'
+}
+
+.Item_Description__Ingredients {
+  display: block;
+  position: relative;
+  font-size: 14px;
+  font-family: 'Raleway Regular';
+  font-style:normal;
+}
+
+.Item_Descripion__Read_More {
+}
+
+.Menu_Item__Demo {
+  display: block;
+  height: 100%;
+  position:absolute;
+  left: inherit;
+  right: 0px;
+}

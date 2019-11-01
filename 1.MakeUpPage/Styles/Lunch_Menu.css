@@ -1,0 +1,208 @@
+.Lunch_Menu_Background {
+  background: #ffffff;
+}
+
+.Page_Block__Lunch_Menu {
+  background: #ffffff;
+}
+
+.Lunch_Menu__Heading {
+}
+
+.Lunch_Dishes__Lunch_Dish_Item {
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+  height: 232px;
+  margin: 40px 0 0 0;
+}
+
+.Lunch_Dish_Item__Lunch_Item_Description {
+  position: relative;
+  display: block;
+  width: 50%;
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 30px;
+}
+
+.Lunch_Dishes__Lunch_Dish_Item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.Lunch_Dishes__Lunch_Dish_Item:nth-child(even) .Lunch_Dish_Item__Lunch_Item_Description{
+  padding-right: 0px;
+  padding-left: 30px;
+}
+
+.Lunch_Item_Description__Demo_Container {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top:0;
+  left: 0;
+  z-index: -100;
+  overflow: hidden;
+  aclip-path: polygon(0% 0%, 0% 100%, 25% 100%, 100% 0%);
+}
+
+.Lunch_Item_Description__Demo_Container::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  left: 25%;
+  top: 100%;
+  background: white;
+  transform-origin: left top;
+  transform: rotate(-45deg);
+  z-index: -25;
+}
+
+.Lunch_Item_Description__Demo_Container::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  z-index: -50;
+  background: linear-gradient(to right, rgba(0,0,0,0),rgba(244,181,143,0.5));
+}
+
+.Demo_Container__Demo {
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+  z-index: -100;
+}
+
+.Lunch_Item_Description__Title {
+  display: block;
+  font-size: 32px;
+  font-family: 'Didot Italic';
+}
+
+.Lunch_Item_Description__Ingredients {
+  display: block;
+  position: relative;
+  margin-top: 30px;
+  font-size: 14px;
+  font-style: normal;
+  font-family: 'Raleway Regular';
+}
+
+.Lunch_Dishes__Lunch_Dish_Item:nth-child(even) .Lunch_Item_Description__Demo_Container{
+  left:inherit;
+  right: 0px;
+  clip-path: polygon(0% 0%, 75% 100%, 100% 100%, 100% 0%);
+}
+
+.Lunch_Dishes__Lunch_Dish_Item:nth-child(even) .Lunch_Item_Description__Title,
+  .Lunch_Dishes__Lunch_Dish_Item:nth-child(even) .Lunch_Item_Description__Ingredients {
+  text-align: left;
+}
+
+.Lunch_Dish_Item__Dish_Price {
+  display:inline-block;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  font-style: normal;
+  font-family: "DidohLH";
+}
+
+.Dish_Price__Price {
+  display: inline-block;
+  width: 136px;
+  height: 96px;
+  line-height: 96px;
+  background: url("../Src/Dishes/price_background.png") no-repeat;
+  font-size: 22px;
+  margin: 50px 0 0 0;
+}
+
+.Ingredients__Decoration::before {
+  color: #ff9966;
+  position: relative;
+  left: 0;
+  top:0;
+}
+
+.Lunch_Dishes__Message_Container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.Message_Container__Message {
+  display: inline-block;
+  margin: 0 auto 40 auto;
+  font-family: "Didot Italic";
+}
+
+.Lunch_Dishes__Actions {
+  width: 100%;
+  text-align: center;
+}
+
+.Actions__Actions_Heading {
+  margin-bottom: 40px;
+}
+
+.Actions_Heading__Title {
+  position: relative;
+  margin: 40px 1px 0 1px;
+  top:2px;
+  font-size: 36px;
+  color:#FF9966;
+  font-family: "Didot Italic";
+}
+
+.Actions_Heading__Title::before {
+  margin: 0px 10px 0px 0px;
+}
+
+.Actions_Heading__Title::after {
+  margin: 0px 0px 0px 10px;
+}
+
+.Action_List__Item {
+  width: 212px;
+  height: 272px;
+  margin: 0 43px 0 43px;
+  padding: 10px;
+  border: 1px solid #ff9966;
+  transition-property: top opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.Pages__Control_Dot {
+    transition-property:
+}
+.Action_List__Item__Hidden {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.Actions__Pages {
+  padding: 40px 0px;
+}
+
+.Pages__Item {
+  margin: 0 10px;
+}
+
+.Content__Menu {
+    width: 100%;
+}

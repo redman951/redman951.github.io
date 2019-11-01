@@ -1,0 +1,128 @@
+.Header_Background {
+    background: #e0dccd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 50;
+}
+
+.Page_Block__Header {
+  width: 1152px;
+  height: 652px;
+  position: relative;
+
+  z-index: 500;
+}
+
+.Header__vapiano_logo {
+  padding: 20px 0px 0px 20px;
+  width: auto;
+  height: auto;
+  display: inline;
+  filter: brightness(0) invert();
+}
+
+.Header__Branding {
+  color: #ffffff;
+  font-family: "Raleway ExtraBold";
+  font-style: normal;
+  display: block;
+  position: relative;
+  margin: 0px auto 0px auto;
+  width: 405px;
+  height: 405px;
+}
+
+.Header__Branding::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  background-image: linear-gradient(to bottom right,transparent 50%, #fff, transparent 51%);
+}
+
+.Header__Branding::after {
+  position: absolute;
+  content: "";
+  left: 0%;
+  top: 305px;
+  width: 27%;
+  height: 27%;
+  background-image: linear-gradient(to bottom right,transparent 50%, #fff, transparent 51%);
+}
+
+.Branding__Branding_Text {
+  position: relative;
+  top: 200px;
+}
+
+.Branding_Text__Welcome_Message {
+  display: block;
+  position: relative;
+  font-size: 62px;
+}
+
+.Branding_Text__Decoration {
+  position: absolute;
+  left: 13px;
+  top: -15px;
+}
+
+.Branding_Text__Welcome_Message::after {
+  content:"------";
+  display: inline-block;
+  position: absolute;
+  letter-spacing: -0.2em;
+  font-size: 32px;
+  top: 60px;
+  left: 0px;
+}
+
+.Branding_Text__Phone_Number {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  top: 0px;
+  left: 90px;
+}
+
+.Header__Navigation {
+  display: block;
+  margin: 117px auto 0px auto;
+  height: 68px;
+  bottom: 0;
+  width: 1006px;
+}
+
+.Navigation__Navigation_Item {
+  display: inline-flex;
+  position: relative;
+  width: 200px;
+  height: 100%;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 0px 0px 0px 1px;
+  border-color: #fff;
+  align-items: center;
+  transition-property: background, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.Navigation__Navigation_Item:last-child {
+  border-width: 0px 1px 0px 1px;
+}
+
+.Navigation__Navigation_Item:hover {
+  background: white;
+  color:black;
+}
+
+.Navigation_Item__Text {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px auto 0px auto;
+  font-size: 16px;
+  font-family: "Raleway Bold";
+}

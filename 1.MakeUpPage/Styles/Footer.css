@@ -1,0 +1,20 @@
+.Footer_Background {
+  background-color: #1f1f21;
+}
+
+.Page_Block__Footer {
+  background-color: rgba(0,0,0,0);
+  position: relative;
+}
+
+.Footer_Table {
+  margin: 0 20px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.Footer__Text {
+  color: #ffffff;
+  font-size: 11px;
+  font-family: 'Raleway Regular';
+}

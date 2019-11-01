@@ -1,0 +1,75 @@
+.Header__Slider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Slider__Images_Container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -200;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.Page_Block__Header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: -100;
+}
+
+.Images_Container__Image {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  transition-property: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  z-index: -300;
+}
+
+.Slider__Slider_Controls {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+  top:6px;
+}
+
+.Slider_Controls__Dot {
+  vertical-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  padding: 2px;
+}
+
+.Slider_Controls__Dot__Selected {
+  padding: 1px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  transition-property: "border-width";
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.Dot__Filler {
+  width: 100%;
+  height: 100%;
+  background-color: #e0dccd;
+}

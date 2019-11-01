@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Тестовое задание 1</title>
+    <link href="Styles/Index.css" rel="stylesheet"  type="text/css" />
+    <link href="Styles/Header.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Slider.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Decorations.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Lunch_Menu.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Menu.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Contact.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Social_Network_Section.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Footer.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Fonts.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/To_Top_Button.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1a12acdb-a1ce-498c-b549-bae954ccfedb&lang=de_DE" type="text/javascript"></script>
+    <script src="JS/Map.js" type="text/javascript"></script>
+  </head>
+  <!---<body onload="startSliderTimer()">--->
+    <div id="Header" class="Background_Block Header_Background">
+      <div class="Page_Block Page_Block__Header">
+        <div class="Header__Slider">
+          <div class="Slider__Images_Container"></div>
+          <div class="Slider__Slider_Controls">
+            <div class="Slider_Controls__Dot">
+              <div class="Dot__Filler"></div>
+            </div>
+          </div>
+        </div>
+        <img class="Header__vapiano_logo" src="Src/Header/Vapiano_logo.png" alt="Vapiano_logo"/>
+        <br>
+        <div class="Header__Branding">
+          <div class="Branding__Branding_Text">
+            <span class="Zig_Zag_Decoration Branding_Text__Decoration"></span>
+            <span class="Branding_Text__Welcome_Message">WELCOME</span>
+            <span class="Branding_Text__Phone_Number">TELEFONISHE RESERVIERUNGEN: +43 1 406 59 13</span>
+          </div>
+        </div>
+        <div class="Header__Navigation"><!---
+      ---><div class="Navigation__Navigation_Item" href="#Lunch_Menu">
+            <span class="Navigation_Item__Text">Mittagsmenü</span>
+          </div><!---
+      ---><div class="Navigation__Navigation_Item" href="#Actions">
+            <span class="Navigation_Item__Text">Actions</span>
+          </div><!---
+      ---><div class="Navigation__Navigation_Item" href="#Menu">
+            <span class="Navigation_Item__Text">Speisekarte</span>
+          </div><!---
+      ---><div class="Navigation__Navigation_Item" href="#Contact">
+            <span class="Navigation_Item__Text">Kontakt</span>
+          </div><!---
+      ---><div class="Navigation__Navigation_Item" href="#Socials">
+            <span class="Navigation_Item__Text">Socials</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---<object data="123.html"></object>--->
+
+    <div id="Lunch_Menu" class="Background_Block Lunch_Menu_Background">
+      <div class="Page_Block Page_Block__Content Page_Block__Lunch_Menu">
+        <div class="Heading Lunch_Menu__Heading">
+          <span class="Heading__Title">Mittagsmenü</span>
+          <hr class="Heading__Separator">
+        </div>
+        <div class="Content__Lunch_Dishes">
+          <div class="Lunch_Dishes__Lunch_Dish_Item">
+            <div class="Lunch_Dish_Item__Lunch_Item_Description">
+              <div class="Lunch_Item_Description__Demo_Container">
+                <img class="Demo_Container__Demo" src="src/dishes/Gebacken.png" alt="Dorsch Gebacken"/>
+              </div>
+              <span class="Lunch_Item_Description__Title">Dorsch Gebacken</span>
+              <div class="Lunch_Item_Description__Ingredients">
+                <span class="Ingredients__Item">Öl, zum Einpinseln</span><br>
+                <span class="Ingredients__Item">Öl für den Bräter</span><br>
+                <span class="Ingredients__Item">Tamarindenpaste (Tamarindenmark)</span><br>
+                <span class="Ingredients__Item">Scharlotte(n)</span><br>
+                <span class="Ingredients__Item">Knoblauch</span><br>
+                <br>
+                <span class="Ingredients__Decoration Zig_Zag_Decoration"></span>
+              </div>
+            </div>
+            <div class="Lunch_Dish_Item__Dish_Price">
+              <span class="Dish_Price__Price">€ 5,70</span>
+            </div>
+          </div>
+          <div class="Lunch_Dishes__Lunch_Dish_Item">
+            <div class="Lunch_Dish_Item__Lunch_Item_Description">
+              <div class="Lunch_Item_Description__Demo_Container">
+                <img class="Demo_Container__Demo" src="src/dishes/Bruschetta.png" alt="Bruschetta">
+              </div>
+              <span class="Lunch_Item_Description__Title">Bruschetta</span>
+              <div class="Lunch_Item_Description__Ingredients">
+                <span class="Ingredients__Item">Öl, zum Einpinseln</span><br>
+                <span class="Ingredients__Item">Öl für den Bräter</span><br>
+                <span class="Ingredients__Item">Tamarindenpaste (Tamarindenmark)</span><br>
+                <span class="Ingredients__Item">Scharlotte(n)</span><br>
+                <span class="Ingredients__Item">Knoblauch</span><br>
+                <br>
+                <span class="Ingredients__Decoration Zig_Zag_Decoration"></span>
+              </div>
+            </div>
+            <div class="Lunch_Dish_Item__Dish_Price">
+              <span class="Dish_Price__Price">€ 5,70</span>
+            </div>
+          </div>
+
+          <div class="Lunch_Dishes__Lunch_Dish_Item">
+            <div class="Lunch_Dish_Item__Lunch_Item_Description">
+              <div class="Lunch_Item_Description__Demo_Container">
+                <img class="Demo_Container__Demo" src="src/dishes/Tallianette.png" alt="Tallianette">
+              </div>
+              <span class="Lunch_Item_Description__Title">Tallianette</span>
+              <div class="Lunch_Item_Description__Ingredients">
+                <span class="Ingredients__Item">Öl, zum Einpinseln</span><br>
+                <span class="Ingredients__Item">Öl für den Bräter</span><br>
+                <span class="Ingredients__Item">Tamarindenpaste (Tamarindenmark)</span><br>
+                <span class="Ingredients__Item">Scharlotte(n)</span><br>
+                <span class="Ingredients__Item">Knoblauch</span><br>
+                <br>
+                <span class="Ingredients__Decoration Zig_Zag_Decoration"></span>
+              </div>
+            </div>
+            <div class="Lunch_Dish_Item__Dish_Price">
+              <span class="Dish_Price__Price">€ 6,70</span>
+            </div>
+          </div>
+        </div>
+        <div class="Lunch_Dishes__Message_Container">
+          <span class="Message_Container__Message">
+            Alle Menüs Täglich erhältlich von Mo-Fr von 11.00-22.00 Uhr<br>
+            außer Feiertags solange der Vorrat reicht.
+          </span>
+        </div>
+        <div class="Lunch_Dishes__Actions" id="Actions">
+          <div class="Actions__Actions_Heading">
+            <div class="Rotated_Square"><div class="Rotated_Square__Inner"></div></div><!---
+        ---><span class="Actions_Heading__Title Lines_Before_And_After">Aktionen</span><!---
+        ---><div class="Rotated_Square"><div class="Rotated_Square__Inner"></div></div>
+          </div>
+          <div class="Actions__Action_List">
+            <img class="Action_List__Item" src="src/Actions/Action1.png" alt="Action1">
+            <img class="Action_List__Item" src="src/actions/Action2.png" alt="Action2">
+            <img class="Action_List__Item" src="src/Actions/Action3.png" alt="Action3">
+          </div>
+          <div class="Actions__Pages">
+            <div class="Rotated_Square Pages__Item"><div class="Rotated_Square__Inner Pages__Control_Dot"></div></div>
+            <div class="Rotated_Square Pages__Item"><div class="Rotated_Square__Inner Pages__Control_Dot Hidden_Item"></div></div>
+            <div class="Rotated_Square Pages__Item"><div class="Rotated_Square__Inner Pages__Control_Dot Hidden_Item"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Background_Block Menu_Background">
+      <div class="Page_Block Page_Block__Content Page_Block__Menu" id="Menu">
+        <div class="Heading Menu__Heading">
+          <span class="Heading__Title">Speisekarte</span>
+          <hr class="Heading__Separator">
+        </div>
+        <div class="Menu__Menu_Items">
+          <div class="Menu_Items__Menu_Items_Row">
+            <div class="Menu_Items_Row__Menu_Item_Container">
+              <div class="Menu_Item_Container__Menu_Item">
+                <div class="Menu_Item__Item_Description">
+                  <span class="Item_Descripion__Title">Hauptgerichte & Pasta</span>
+                  <br>
+                  <span class="Item_Description__Ingredients">
+                    Gegrilltes Hühnerfilet<br>
+                    auf Röstgemuse, Langkornreis und<br>
+                    Kräutebutter<br>
+                    Rotes Putencurry<br>
+                    mit Wokgemüse und Polaureis<br>
+                    Wiener Schnitzel<br>
+                    Penne Carbonara
+                  </span>
+                  <br>
+                  <a class="Item_Description__Read_More" href="../dishes.php?id=1">Read more...</a>
+                </div>
+                <img class="Menu_Item__Demo" src="src/Menu/Hauptgerichte_and_Pasta.png" alt="Hauptgerichte_and_Pasta"/>
+              </div>
+            </div>
+            <div class="Menu_Items_Row__Menu_Item_Container">
+              <div class="Menu_Item_Container__Menu_Item">
+                <div class="Menu_Item__Item_Description">
+                  <span class="Item_Descripion__Title">Beilagen</span>
+                  <br>
+                  <span class="Item_Description__Ingredients">
+                    Gegrilltes Hühnerfilet<br>
+                    auf Röstgemuse, Langkornreis und<br>
+                    Kräutebutter<br>
+                    Rotes Putencurry<br>
+                    mit Wokgemüse und Polaureis<br>
+                    Wiener Schnitzel<br>
+                    Penne Carbonara
+                  </span>
+                  <br>
+                  <a class="Item_Description__Read_More" href="../dishes.php?id=2">Read more...</a>
+                </div>
+              <img class="Menu_Item__Demo" src="src/menu/Beilagen.png" alt="Beilagen"/>
+              </div>
+            </div>
+          </div>
+          <div class="Menu_Items__Menu_Items_Row">
+            <div class="Menu_Items_Row__Menu_Item_Container">
+              <div class="Menu_Item_Container__Menu_Item">
+                <div class="Menu_Item__Item_Description">
+                  <span class="Item_Descripion__Title">Meals</span>
+                  <br>
+                  <span class="Item_Description__Ingredients">
+                    Gegrilltes Hühnerfilet<br>
+                    auf Röstgemuse, Langkornreis und<br>
+                    Kräutebutter<br>
+                    Rotes Putencurry<br>
+                    mit Wokgemüse und Polaureis<br>
+                    Wiener Schnitzel<br>
+                    Penne Carbonara
+                  </span>
+                  <br>
+                  <a class="Item_Description__Read_More" href="../dishes.php?id=3">Read more...</a>
+                </div>
+                <img class="Menu_Item__Demo" src="src/menu/Meals.png" alt="Meals"/>
+              </div>
+            </div>
+            <div class="Menu_Items_Row__Menu_Item_Container">
+              <div class="Menu_Item_Container__Menu_Item">
+                <div class="Menu_Item__Item_Description">
+                  <span class="Item_Descripion__Title">Salad</span>
+                  <br>
+                  <span class="Item_Description__Ingredients">
+                    Gegrilltes Hühnerfilet<br>
+                    auf Röstgemuse, Langkornreis und<br>
+                    Kräutebutter<br>
+                    Rotes Putencurry<br>
+                    mit Wokgemüse und Polaureis<br>
+                    Wiener Schnitzel<br>
+                    Penne Carbonara
+                  </span>
+                  <br>
+                  <a class="Item_Description__Read_More" href="../dishes.php?id=4">Read more...</a>
+                </div>
+                <img class="Menu_Item__Demo" src="src/Menu/Salad.png" alt="Salad"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Background_Block Page_Block__Content Contact_Background">
+      <div class="Page_Block Page_Block__Contact" id="Contact">
+        <div class="Heading Contact__Heading">
+          <span class="Heading__Title">Kontakt</span>
+          <hr class="Heading__Separator">
+        </div>
+        <div class="Contact__Container">
+          <form class="Contact__Contact_Form" action="index.html" method="post">
+            <label class="Contact_Form__Label" for="Name">Name</label>
+            <br>
+            <input class="Contact_Form__Name_Input Transparent_Background Thin_Border" type="text" name="Name" value="">
+            <br>
+            <br>
+            <label class="Contact_Form__Label" for="Last_Name">Last Name</label>
+            <br>
+            <input class="Contact_Form__Name_Input Transparent_Background Thin_Border" type="text" name="Last_Name" value="">
+            <br>
+            <br>
+            <label class="Contact_Form__Label" for="Message">Message</label>
+            <br>
+            <input class="Contact_Form__Message Transparent_Background Thin_Border" type="text" name="Message" value="">
+            <br>
+            <br>
+            <input class="Contact__Form__Button Transparent_Background Thin_Border" type="submit" value="Send">
+            <br>
+          </form>
+          <div class="Contact__Map">
+            <div id="Yandex_Map" class="Map__Image"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Background_Block Footer_Background">
+      <div id="Socials" class="Page_Block Page_Block__Footer">
+        <div class="Footer__Social_Network_Section">
+          <div class="Social_Network_Section__Background_Extention"></div>
+          <span class="Social_Network_Section__Become_Member_Message">Become a member of<br>Goran Ramljak dribbble page</span>
+          <br>
+          <div class="Rotated_Square"><div class="Rotated_Square__Inner"></div></div><!---
+      ---><div class="Social_Network_Section__Separator Lines_Before_And_After"></div><!---
+      ---><div class="Rotated_Square"><div class="Rotated_Square__Inner"></div></div>
+          <br>
+          <span class="Social_Network_Section__Get_Information_Message">and get all the information about new freebies...</span>
+        </div>
+        <table class="Footer_Table">
+          <tr>
+            <td>
+              <span class="Footer__Text">
+                OFFNUNGSZEITEN<br>
+                Mo-Fr. 8-23h' Sa: 9-21h<br>
+                So, Feiertags: 10-21h
+              </span>
+            </td>
+            <td>
+              <span class="Footer__Text">
+                ANSCHRIFT<br>
+                Reichsratsstrasse 17<br>
+                A - 1010 Wien
+              </span>
+            </td>
+            <td>
+              <span class="Footer__Text">
+                KONTAKT<br>r
+                Telefon: +431 223333<br>
+                E-Mail: office@cafe-vapiano.at
+              </span>
+            </td>
+            <td>
+              <span class="Footer__Text Text_Justify" style="width: 115px;">
+                Web <img src="Src/Footer/Goran_Ramljak.png" alt="Goran_Ramljak"> by <br>
+                Goran Ramljak
+              </span>
+            </td>
+          </tr>
+        </table>
+      </div>
+  </div>
+  <div class="To_Top_Button" href="#Header">
+    <span class="To_Top_Button__Text">Back to top</span>
+  </div>
+  </body>
+  <script src="JS/Slider.js" type="text/javascript"></script>
+  <script src="JS/Navigation.js" type="text/javascript"></script>
+  <script src="JS/To_Top.js" type="text/javascript"></script>
+  <script src="JS/Actions_Pager.js" type="text/javascript"></script>
+</html>
