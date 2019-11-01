@@ -6,9 +6,6 @@
   background: #ffffff;
 }
 
-.Lunch_Menu__Heading {
-}
-
 .Lunch_Dishes__Lunch_Dish_Item {
   display: inline-flex;
   position: relative;
@@ -26,7 +23,7 @@
   padding-right: 30px;
 }
 
-.Lunch_Dishes__Lunch_Dish_Item:nth-child(even){
+.Lunch_Dishes__Lunch_Dish_Item:nth-child(even) {
     flex-direction: row-reverse;
 }
 
@@ -43,7 +40,6 @@
   left: 0;
   z-index: -100;
   overflow: hidden;
-  aclip-path: polygon(0% 0%, 0% 100%, 25% 100%, 100% 0%);
 }
 
 .Lunch_Item_Description__Demo_Container::before {
@@ -99,7 +95,7 @@
 .Lunch_Dishes__Lunch_Dish_Item:nth-child(even) .Lunch_Item_Description__Demo_Container{
   left:inherit;
   right: 0px;
-  clip-path: polygon(0% 0%, 75% 100%, 100% 100%, 100% 0%);
+  transform: scaleX(-1.0);
 }
 
 .Lunch_Dishes__Lunch_Dish_Item:nth-child(even) .Lunch_Item_Description__Title,
