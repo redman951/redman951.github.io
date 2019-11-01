@@ -19,7 +19,7 @@
     font-style: normal;
     font-weight: 700;
     src: local('Raleway Bold'), local('Raleway-Bold'),
-        url('../Fonts/raleway-bold.ttf') format('truetype');
+        url('../Fonts/Raleway-Bold.ttf') format('truetype');
 }
 
 @font-face {

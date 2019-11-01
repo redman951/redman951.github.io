@@ -9,8 +9,8 @@ const
 
 let imageUrls = [
   'Src/Header/Slider/Background1.jpg',
-  'Src/Header/Slider/Background21.png',
-  'Src/Header/Slider/Background23.png'
+  'Src/Header/Slider/Background2.png',
+  'Src/Header/Slider/Background3.png'
 ],
   lastImageIndex,
   currentImageIndex,

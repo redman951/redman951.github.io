@@ -59,9 +59,9 @@ function setActionPage(pageIndex){
 
 function getImages(page, cnt) {
   const actionUrls = [
-    "src/Actions/Action1.png",
-    "src/Actions/Action2.png",
-    "src/Actions/Action3.png",
+    "Src/Actions/action1.png",
+    "Src/Actions/action2.png",
+    "Src/Actions/action3.png",
   ];
   let result = [];
   if (page <= 1) {
