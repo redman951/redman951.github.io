@@ -36,7 +36,7 @@ function initSliderImages(){
   }
   sliderImageElems = document.getElementsByClassName(sliderImageClass);
   for (let i = 0; i < imageUrls.length; ++i){
-    sliderImageElems[i].style["background-image"] = `url("${imageUrls[i]}")`;
+    sliderImageElems[i].style["background-image"] = `url(${imageUrls[i]})`;
     sliderImageElems[i].style.left = i == 0 ? "0" : "100%";
     sliderImageElems[i].style.opacity = i == 0 ? "1" : "0";
   }
