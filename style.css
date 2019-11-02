@@ -20,6 +20,7 @@ body, html {
   transition-property: transform, background-color;
   transition-duration: 0.3s;
   transition-timing-function: ease;
+  cursor: pointer;
 }
 
 .PagePresent:hover {
